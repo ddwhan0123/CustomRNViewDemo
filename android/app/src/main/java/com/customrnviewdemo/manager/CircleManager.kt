@@ -26,6 +26,7 @@ class CircleManager : SimpleViewManager<CircleView>() {
      */
     @ReactProp(name = "radius")
     fun setRadius(view: CircleView, radius: Int) {
-        view.setRadius(radius);
+        view.setRadius(radius)
     }
+
 }
